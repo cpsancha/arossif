@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: caps
+Class-Path: lib/javafx-controls-11.0.2-win.jar lib/javafx-graphics-11.
+ 0.2-linux.jar lib/javafx-graphics-11.0.2-win.jar lib/javafx-graphics-
+ 11.0.2-mac.jar lib/javafx-graphics-11.0.2.jar lib/javafx-base-11.0.2.
+ jar lib/javafx-base-11.0.2-win.jar lib/javafx-fxml-11.0.2.jar lib/jav
+ afx-fxml-11.0.2-win.jar lib/javafx-controls-11.0.2.jar
+Build-Jdk: 1.8.0_201
+Created-By: Maven Integration for Eclipse
+Main-Class: app.Arossif
+
