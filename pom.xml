@@ -20,6 +20,7 @@
 		<maven.jar.version>3.1.1</maven.jar.version><!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
 		<maven.dependency.version>3.1.1</maven.dependency.version><!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
 		<maven.assembly.version>3.1.1</maven.assembly.version><!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
+		<maven.exec.version>1.6.0</maven.exec.version><!-- https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin -->
 		<maven.surefire.version>3.0.0-M3</maven.surefire.version><!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
 		<junit.jupiter.version>5.4.0-M1</junit.jupiter.version><!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
 		<junit.platform.version>1.4.0-M1</junit.platform.version><!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner -->
@@ -31,7 +32,8 @@
 
 	<build>
 		<plugins>
-			<!-- Compile the sources of your project https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+			<!-- Compile the sources of your project -->
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -41,7 +43,8 @@
 					<target>${java.version}</target>
 				</configuration>
 			</plugin>
-			<!-- Include the dependencies at the jar packaging https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
+			<!-- Include the dependencies at the jar packaging -->
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
@@ -62,7 +65,8 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- Generate a unique jar including the dependencies https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
+			<!-- Generate a unique jar including the dependencies -->
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -87,7 +91,8 @@
 					</descriptorRefs>
 				</configuration>
 			</plugin>
-			<!-- Build an executable JAR https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
+			<!-- Build an executable JAR -->
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -102,7 +107,32 @@
 					</archive>
 				</configuration>
 			</plugin>
-			<!-- Execute the unit tests of an application https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+			<!-- Execute applications from Maven -->
+			<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/exec-maven-plugin -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>${maven.exec.version}</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>${project.mainClass}</mainClass>
+					<executable>cmd</executable>
+					<arguments>
+						<argument>/k</argument>
+						<argument>mvn</argument>
+						<argument>exec:java</argument>
+						<argument>${project_loc:arossif}</argument>
+					</arguments>
+				</configuration>
+			</plugin>
+			<!-- Execute the unit tests of an application -->
+			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>

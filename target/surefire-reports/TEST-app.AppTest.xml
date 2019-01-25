@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\caps\AppData\Local\Temp\surefire16755006193368183145\surefirebooter14431775340491339497.jar C:\Users\caps\AppData\Local\Temp\surefire16755006193368183145 2019-01-25T16-38-11_308-jvmRun1 surefire8303067859376817472tmp surefire_015021074388351513740tmp"/>
+    <property name="sun.java.command" value="C:\Users\caps\AppData\Local\Temp\surefire7237830299905782109\surefirebooter2193184659323715983.jar C:\Users\caps\AppData\Local\Temp\surefire7237830299905782109 2019-01-25T18-05-27_570-jvmRun1 surefire2714932630581511495tmp surefire_03153360928572857816tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\caps\arossif-workspace\arossif\target\test-classes;C:\Users\caps\arossif-workspace\arossif\target\classes;C:\Users\caps\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0-M1\junit-jupiter-engine-5.4.0-M1.jar;C:\Users\caps\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\caps\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0-M1\junit-platform-engine-1.4.0-M1.jar;C:\Users\caps\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0-M1\junit-platform-commons-1.4.0-M1.jar;C:\Users\caps\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\caps\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0-M1\junit-jupiter-api-5.4.0-M1.jar;C:\Users\caps\.m2\repository\org\junit\platform\junit-platform-runner\1.4.0-M1\junit-platform-runner-1.4.0-M1.jar;C:\Users\caps\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0-M1\junit-platform-launcher-1.4.0-M1.jar;C:\Users\caps\.m2\repository\org\junit\platform\junit-platform-suite-api\1.4.0-M1\junit-platform-suite-api-1.4.0-M1.jar;C:\Users\caps\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\caps\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\caps\.m2\repository\org\junit\vintage\junit-vintage-engine\5.4.0-M1\junit-vintage-engine-5.4.0-M1.jar;C:\Users\caps\.m2\repository\org\junit\platform\junit-platform-surefire-provider\1.3.2\junit-platform-surefire-provider-1.3.2.jar;C:\Users\caps\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.0\surefire-api-2.22.0.jar;C:\Users\caps\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.0\surefire-logger-api-2.22.0.jar;C:\Users\caps\.m2\repository\org\apache\maven\surefire\common-java5\2.22.0\common-java5-2.22.0.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2-win.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2-linux.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2-win.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2-mac.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2-win.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-fxml\11.0.2\javafx-fxml-11.0.2.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-fxml\11.0.2\javafx-fxml-11.0.2-win.jar;C:\Users\caps\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\caps\AppData\Local\Temp\surefire16755006193368183145\surefirebooter14431775340491339497.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\caps\AppData\Local\Temp\surefire7237830299905782109\surefirebooter2193184659323715983.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.2+9-LTS"/>
@@ -60,6 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="firstTest" classname="app.AppTest" time="0"/>
+  <testcase name="firstTest" classname="app.AppTest" time="0.001"/>
   <testcase name="secondTest" classname="app.AppTest" time="0"/>
 </testsuite>
