@@ -1,5 +1,6 @@
 package gui;
 
+import db.H2database;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -18,7 +19,8 @@ public class ArossifGui extends Application {
  
             @Override
             public void handle(ActionEvent event) {
-                System.out.println("Hello World!");
+                //System.out.println("Hello World!");
+            	H2database.testH2database();
             }
         });
         

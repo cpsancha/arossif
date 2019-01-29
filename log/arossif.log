@@ -1,0 +1,12 @@
+2019-01-29 17:28:05.050 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:28)] - Database created for Driver org.h2.Driver and connection jdbc:h2:~/dbTest.
+2019-01-29 17:28:05.057 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:34)] - Database closed.
+2019-01-29 17:28:31.367 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:28)] - Database created for Driver org.h2.Driver and connection jdbc:h2:~/dbTest.
+2019-01-29 17:28:31.368 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:34)] - Database closed.
+2019-01-29 17:28:31.927 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:28)] - Database created for Driver org.h2.Driver and connection jdbc:h2:~/dbTest.
+2019-01-29 17:28:31.928 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:34)] - Database closed.
+2019-01-29 17:28:32.587 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:28)] - Database created for Driver org.h2.Driver and connection jdbc:h2:~/dbTest.
+2019-01-29 17:28:32.588 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:34)] - Database closed.
+2019-01-29 17:30:37.908 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:28)] - Database created for Driver org.h2.Driver and connection jdbc:h2:~/dbTest.
+2019-01-29 17:30:37.913 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:34)] - Database closed.
+2019-01-29 17:30:40.414 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:28)] - Database created for Driver org.h2.Driver and connection jdbc:h2:~/dbTest.
+2019-01-29 17:30:40.419 DEBUG [JavaFX Application Thread] [db.H2database] [testH2database] [db.H2database.testH2database(H2database.java:34)] - Database closed.
