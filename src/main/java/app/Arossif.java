@@ -1,11 +1,11 @@
 package app;
 
-import gui.ArossifGui;
+import gui.Gui;
 
 public class Arossif {
 	
 	public static void main(String[] args) {
-        ArossifGui.main(args);
+        Gui.main(args);
     }
 
 }

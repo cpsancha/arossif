@@ -30,6 +30,7 @@
 		<sqlite.jdbc.version>3.25.2</sqlite.jdbc.version><!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
 		<h2.database.version>1.4.197</h2.database.version><!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 		<apache.log4j.version>2.11.1</apache.log4j.version><!-- https://mvnrepository.com/artifact/org.apache.logging.log4j -->
+		<jfoenix.version>9.0.8</jfoenix.version><!-- https://mvnrepository.com/artifact/com.jfoenix/jfoenix -->
 	</properties>
 
 	<build>
@@ -246,6 +247,12 @@
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-core</artifactId>
 			<version>${apache.log4j.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.jfoenix/jfoenix -->
+		<dependency>
+		    <groupId>com.jfoenix</groupId>
+		    <artifactId>jfoenix</artifactId>
+		    <version>${jfoenix.version}</version>
 		</dependency>
 	</dependencies>
 </project>
