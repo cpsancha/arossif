@@ -1,6 +1,0 @@
-app\Arossif.class
-gui\ArossifGui$1.class
-db\H2database.class
-db\SQLiteJDBCdriver.class
-gui\ArossifGui.class
-utils\FileUtils.class
